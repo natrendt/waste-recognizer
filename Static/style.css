@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Helvetica, Sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #434343;
+    background: #95a8e6;
+}
+
+header {
+    margin: 25px 0;
+    text-align: center;
+    color: #0b1c82;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+#content {
+    text-align: justify;
+    float: left;
+    width: 55%;
+    margin-left: 5%;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.50);
+    padding: 20px;
+}
+
+.pimg {
+    float: right;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+}
+
+.gallery img {
+    float: left;
+    padding: 5px;
+    height: 30%;
+    width: 30%;
+}
+
+.gallery img:hover {
+    transform: scale(1.50);
+}
+
+.form {
+
+}
+
+.form input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form input[type=email] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form input[type=message] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    padding-left: 5%;
+}
+
+aside nav ul {
+    list-style: none;
+}
+
+aside nav ul li {
+    margin-bottom: 1px;
+}
+
+    aside nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        background: rgba(255, 255, 255, 0.50);
+        padding: 8px 20px;
+    }
+
+aside nav ul li a:hover {
+    background: #212121;
+    color: #FFF;
+}
+
+
+footer {
+    clear: both;
+    height: 50px;
+    background: #3e3e3e;
+    color: #FFF;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
